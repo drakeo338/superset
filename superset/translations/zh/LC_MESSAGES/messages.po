@@ -17414,6 +17414,11 @@ msgstr "此字段用作将指标附加到图表的唯一标识符。它也用作
 msgid "This filter already exist on the report"
 msgstr "此筛选器已存在于报表中"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "此筛选器可能与当前 %s 不兼容"

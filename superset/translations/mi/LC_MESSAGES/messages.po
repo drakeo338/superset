@@ -17811,6 +17811,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "Kāore e taea te noho kau te rārangi uara tātari"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, fuzzy, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "Kāhore pea e hāngai tēnei tātari ki te rārangi raraunga o nāianei"

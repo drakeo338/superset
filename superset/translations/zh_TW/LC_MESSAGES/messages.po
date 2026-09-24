@@ -18606,6 +18606,11 @@ msgstr "此欄位用作唯一識別符，以將指標附加到圖表。它也用
 msgid "This filter already exist on the report"
 msgstr "過濾器值列表不能為空"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, fuzzy, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "此圖表可能與過濾器不兼容(數據集不匹配)"

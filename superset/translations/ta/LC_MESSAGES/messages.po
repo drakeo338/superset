@@ -16515,6 +16515,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "இந்த வடிகட்டி அறிக்கையில் ஏற்கனவே உள்ளது"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, fuzzy, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "இந்த வடிகட்டி தற்போதைய தரவுத்தொகுப்பிற்குப் பொருந்தாமல் இருக்கலாம்"

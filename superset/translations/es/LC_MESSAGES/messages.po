@@ -17811,6 +17811,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "La lista de valores del filtro no puede estar vacía"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "Puede que este filtro sea incompatible con el %s actual"

@@ -18109,6 +18109,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "Acest filtru există deja pe raport"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, fr, ja,
 # sr, sr_Latn]
 #, fuzzy, python-format

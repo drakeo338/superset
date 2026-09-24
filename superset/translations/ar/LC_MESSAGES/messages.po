@@ -18469,6 +18469,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "لا يمكن أن تكون قائمة قيم التصفية فارغة"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, fuzzy, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "قد يكون عامل التصفية هذا غير متوافق مع مجموعة البيانات الحالية"

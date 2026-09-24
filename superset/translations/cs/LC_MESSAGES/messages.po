@@ -17303,6 +17303,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "Tento filtr již existuje na reportu."
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, fuzzy, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "Tento filtr může být nekompatibilní s aktuální sadou dat"

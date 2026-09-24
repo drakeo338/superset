@@ -16941,6 +16941,11 @@ msgstr ""
 msgid "This filter already exist on the report"
 msgstr "Dieser Filter ist im Bericht bereits vorhanden"
 
+msgid ""
+"This filter is also applied to a partition column for faster queries. See"
+" \"View query\" for the generated SQL."
+msgstr ""
+
 #, python-format
 msgid "This filter might be incompatible with current %s"
 msgstr "Dieser Filter ist möglicherweise nicht mit dem aktuellen %s kompatibel."
