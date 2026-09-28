@@ -1097,6 +1097,12 @@ msgstr ""
 msgid "A valid color scheme is required"
 msgstr ""
 
+#, python-format
+msgid ""
+"A value transform is required on %(name)s, which is not a temporal "
+"column. Use :value for each value."
+msgstr ""
+
 msgid ""
 "A waterfall chart is a form of data visualization that helps in "
 "understanding\n"
