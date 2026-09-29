@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  superset-ds\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2024-05-08 14:41+0000\n"
 "Last-Translator: \n"
 "Language: nl\n"
@@ -1054,8 +1054,8 @@ msgid ""
 " period. It is commonly used for financial and other time-series range "
 "analysis."
 msgstr ""
-"Een candlestick-grafiek toont openings-, slot-, hoogste en laagste waarden "
-"per periode. Wordt vaak gebruikt voor financiële en andere "
+"Een candlestick-grafiek toont openings-, slot-, hoogste en laagste "
+"waarden per periode. Wordt vaak gebruikt voor financiële en andere "
 "tijdreeks-bereikanalyses."
 
 #, fuzzy
@@ -2628,6 +2628,9 @@ msgstr "Filters toepassen"
 msgid "Apply metrics on"
 msgstr "Metrieken toepassen op"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "April"
 
@@ -4158,6 +4161,9 @@ msgstr "Formulier wissen"
 msgid "Clear local theme"
 msgstr "Lineair kleurenpalet"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -4409,8 +4415,7 @@ msgstr "Kleurenschema"
 msgid ""
 "Color used when the close value is greater than or equal to the open "
 "value."
-msgstr ""
-"Kleur wanneer de slotwaarde groter dan of gelijk aan de openingswaarde is."
+msgstr "Kleur wanneer de slotwaarde groter dan of gelijk aan de openingswaarde is."
 
 msgid "Color used when the close value is less than the open value."
 msgstr "Kleur wanneer de slotwaarde kleiner is dan de openingswaarde."
@@ -4477,6 +4482,9 @@ msgstr "Kolomnaam"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "Kolomnaam [%s] is gedupliceerd"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5475,6 +5483,9 @@ msgstr "Dashboard kon niet worden hersteld."
 msgid "Dashboard could not be updated."
 msgstr "Dashboard kon niet worden bijgewerkt."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Het dashboard bestaat niet"
 
@@ -5485,6 +5496,9 @@ msgstr "Dit dashboard is succesvol opgeslagen."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "Dit dashboard is succesvol opgeslagen."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Dashboard geïmporteerd"
@@ -7647,9 +7661,6 @@ msgstr "Wekelijks Rapport"
 msgid "Excel XML Export"
 msgstr "Wekelijks Rapport"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, fuzzy
@@ -7835,6 +7846,11 @@ msgstr "Exporteren naar origineel .CSV bestand"
 
 msgid "Export to pivoted .CSV"
 msgstr "Exporteren naar pivoted .CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -10358,6 +10374,9 @@ msgstr "Marge"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Markeer een kolom als tijdelijk in \"Bewerk gegevensbron\" modal"
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Marker"
 
@@ -11366,6 +11385,11 @@ msgstr "Geen -> Pijl"
 msgid "None -> None"
 msgstr "Geen -> Geen"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "Normaal"
 
@@ -11950,8 +11974,8 @@ msgid ""
 "Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
 " Type a custom period to add it."
 msgstr ""
-"Eenvoudige voortschrijdende gemiddelden van de slotkoers overlappen (MA5, "
-"MA10, MA15, ...). Typ een eigen periode om die toe te voegen."
+"Eenvoudige voortschrijdende gemiddelden van de slotkoers overlappen (MA5,"
+" MA10, MA15, ...). Typ een eigen periode om die toe te voegen."
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -12592,6 +12616,12 @@ msgstr "Voorvoegsel of achtervoegsel"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -13587,6 +13617,9 @@ msgstr "Gewicht"
 
 msgid "Row limit"
 msgstr "Rij limiet"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -16171,6 +16204,9 @@ msgstr "Tabellen"
 msgid "Tabs"
 msgstr "Tabs"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "Tabelvormig"
 
@@ -16826,6 +16862,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -18108,6 +18150,12 @@ msgstr ""
 "annotatie gegevens."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apache Superset 0.22.1\n"
 "Report-Msgid-Bugs-To: zhouyao94@qq.com\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2019-01-04 22:19+0800\n"
 "Last-Translator: cdmikechen\n"
 "Language: zh\n"
@@ -2496,6 +2496,9 @@ msgstr "应用过滤器"
 msgid "Apply metrics on"
 msgstr "应用指标到"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "四月"
 
@@ -3943,6 +3946,9 @@ msgstr "清除表单"
 msgid "Clear local theme"
 msgstr "清除本地主题"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr "清除搜索"
 
@@ -4241,6 +4247,9 @@ msgstr "列名"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "列名 [%s] 重复"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5201,6 +5210,9 @@ msgstr "看板无法被恢复。"
 msgid "Dashboard could not be updated."
 msgstr "看板无法更新。"
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "看板不存在"
 
@@ -5209,6 +5221,9 @@ msgstr "看板已成功导出为示例。"
 
 msgid "Dashboard exported successfully"
 msgstr "看板已成功导出。"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 #, fuzzy
 msgid "Dashboard imported"
@@ -7205,9 +7220,6 @@ msgstr "Excel 导出"
 msgid "Excel XML Export"
 msgstr "Excel XML 导出"
 
-msgid "Excel export is not configured on this server."
-msgstr "此服务器上未配置 Excel 导出功能。"
-
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, fuzzy
@@ -7390,6 +7402,11 @@ msgstr "导出原始CSV"
 
 msgid "Export to pivoted .CSV"
 msgstr "导出为透视表形式的CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9822,6 +9839,9 @@ msgstr "边距"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "在“编辑数据源”模态框中将列标记为时间列"
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "标记"
 
@@ -10814,6 +10834,11 @@ msgstr "无 -> 箭头"
 
 msgid "None -> None"
 msgstr "无->无"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "正常"
@@ -12000,6 +12025,12 @@ msgstr "前缀或者后缀"
 msgid "Preparing %(count)s charts for export. This may take a moment."
 msgstr ""
 
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
+msgstr ""
+
 msgid "Preview"
 msgstr "预览"
 
@@ -12971,6 +13002,9 @@ msgstr "行高"
 
 msgid "Row limit"
 msgstr "行限制"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -15396,6 +15430,9 @@ msgstr "数据表"
 msgid "Tabs"
 msgstr "选项卡"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "表格"
 
@@ -15979,6 +16016,12 @@ msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
 msgstr "以下图表因导出时发生错误而被省略："
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
+msgstr ""
 
 msgid ""
 "The following charts were omitted because they have no saved query "
@@ -17073,6 +17116,12 @@ msgstr "此设置控制当前视图中的时间粒度字段是否应传递到包
 
 msgid "This dashboard does not exist"
 msgstr "看板不存在"
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
+msgstr ""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,

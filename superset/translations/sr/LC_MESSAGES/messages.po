@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2026-06-14 13:20+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sr\n"
@@ -1196,8 +1196,8 @@ msgid ""
 "analysis."
 msgstr ""
 "Свећасти графикон приказује вредности отварања, затварања, максимум и "
-"минимум за сваки период. Обично се користи за финансијску и другу анализу "
-"опсега временских серија."
+"минимум за сваки период. Обично се користи за финансијску и другу анализу"
+" опсега временских серија."
 
 # ru, sk, uk]
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -2989,6 +2989,9 @@ msgstr "Примени филтере"
 msgid "Apply metrics on"
 msgstr "Примени метрике на"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "Април"
 
@@ -4699,6 +4702,9 @@ msgstr "Обриши формулар"
 msgid "Clear local theme"
 msgstr "Обриши локалну тему"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -5056,6 +5062,9 @@ msgstr "Назив колоне"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "Назив колоне [%s] је дупликат"
+
+msgid "Column options"
+msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 #, python-format
@@ -6155,6 +6164,9 @@ msgstr "Контролни панел није могао бити враћен.
 msgid "Dashboard could not be updated."
 msgstr "Контролна табла није могла бити ажурирана."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 # de, es, fa, fr, ja, ko, lv, mi, nl, pl, pt_BR, ru, sk, sl, tr, uk, zh,
 # zh_TW]
 msgid "Dashboard does not exist"
@@ -6167,6 +6179,9 @@ msgstr "Контролна табла је успешно извезена ка�
 # uk]
 msgid "Dashboard exported successfully"
 msgstr "Контролна табла је успешно извезена"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 # de, es, fa, ja, lv, mi, nl, pt_BR, ru, sk, sl, tr, uk]
 msgid "Dashboard imported"
@@ -8629,9 +8644,6 @@ msgstr "Извоз у Excel"
 msgid "Excel XML Export"
 msgstr "Извоз у Excel XML"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 # es, fa, fr, ja, lv, mi, pl, ru, sk, sl, uk]
 msgid "Excel file format cannot be determined"
 msgstr "Формат Excel фајла не може бити утврђен"
@@ -8843,6 +8855,11 @@ msgstr "Извези у оригинални .CSV"
 # de, es, fa, fr, ja, lv, mi, nl, pl, ru, sk, sl, uk, zh, zh_TW]
 msgid "Export to pivoted .CSV"
 msgstr "Извези у укрштени .CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -11614,6 +11631,9 @@ msgstr "Маргина"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Означите колону као временску у прозору \"Измени извор података\""
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Маркер"
 
@@ -12756,6 +12776,11 @@ msgstr "Ништа -> Стрелица"
 msgid "None -> None"
 msgstr "Ништа -> Ништа"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Normal"
 msgstr "Нормално"
@@ -13428,8 +13453,8 @@ msgid ""
 "Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
 " Type a custom period to add it."
 msgstr ""
-"Преклопите просте покретне просеке цене затварања (MA5, MA10, MA15, ...). "
-"Унесите прилагођени период да га додате."
+"Преклопите просте покретне просеке цене затварања (MA5, MA10, MA15, ...)."
+" Унесите прилагођени период да га додате."
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk]
 msgid ""
@@ -14152,6 +14177,12 @@ msgstr "Префикс или суфикс"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 # de, es, fa, fr, ja, ko, lv, mi, nl, pl, pt, pt_BR, ru, sk, sl, uk, zh,
@@ -15287,6 +15318,9 @@ msgstr "Висина реда"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Row limit"
 msgstr "Ограничење редова"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -18164,6 +18198,9 @@ msgstr "Табеле"
 msgid "Tabs"
 msgstr "Картице"
 
+msgid "Tabs options"
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Tabular"
 msgstr "Табеларно"
@@ -18826,6 +18863,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -20167,6 +20210,12 @@ msgstr ""
 "податке напомена."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk]
@@ -22496,9 +22545,9 @@ msgid ""
 "candles use the decrease color. Turn off to use one series color, with a "
 "filled body for increases and a hollow body for decreases."
 msgstr ""
-"Ако је укључено, растуће свеће користе боју раста, а опадајуће боју пада. "
-"Искључите да користите једну боју серије: испуњено тело при расту и шупље "
-"при паду."
+"Ако је укључено, растуће свеће користе боју раста, а опадајуће боју пада."
+" Искључите да користите једну боју серије: испуњено тело при расту и "
+"шупље при паду."
 
 # ru, sk, uk]
 msgid ""

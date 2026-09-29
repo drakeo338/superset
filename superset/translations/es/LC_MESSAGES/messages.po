@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2016-05-02 08:49-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -1022,8 +1022,8 @@ msgid ""
 "analysis."
 msgstr ""
 "Un gráfico de velas muestra los valores de apertura, cierre, máximo y "
-"mínimo de cada período. Se usa habitualmente para análisis financiero y de "
-"rangos en series temporales."
+"mínimo de cada período. Se usa habitualmente para análisis financiero y "
+"de rangos en series temporales."
 
 #, fuzzy
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -2538,6 +2538,9 @@ msgstr "Aplicar filtros"
 msgid "Apply metrics on"
 msgstr "Aplicar métricas en"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "Abril"
 
@@ -4019,6 +4022,9 @@ msgstr "Borrar formulario"
 msgid "Clear local theme"
 msgstr "Esquema de color lineal"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -4332,6 +4338,9 @@ msgstr "Nombre de columna"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "El nombre de la columna [%s] está duplicado"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5274,6 +5283,9 @@ msgstr "No se pudo restaurar el panel."
 msgid "Dashboard could not be updated."
 msgstr "No se ha podido actualizar el panel de control."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "El panel de control no existe"
 
@@ -5284,6 +5296,9 @@ msgstr "Este panel de control se ha guardado correctamente."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "Este panel de control se ha guardado correctamente."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Panel de control importado"
@@ -7362,9 +7377,6 @@ msgstr "Informe semanal"
 msgid "Excel XML Export"
 msgstr "Informe semanal"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "No se puede determinar el formato de archivo de Excel"
 
@@ -7539,6 +7551,11 @@ msgstr "Exportar a .CSV original"
 
 msgid "Export to pivoted .CSV"
 msgstr "Exportar a .CSV dinámico"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9967,6 +9984,9 @@ msgstr "Margen"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Marcar una columna como temporal en el modal «Editar fuente de datos»"
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Marcador"
 
@@ -10933,6 +10953,11 @@ msgstr "Ninguno -> Flecha"
 
 msgid "None -> None"
 msgstr "Ninguno -> Ninguno"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "Normal"
@@ -12125,6 +12150,12 @@ msgstr "Prefijo o sufijo"
 msgid "Preparing %(count)s charts for export. This may take a moment."
 msgstr ""
 
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
+msgstr ""
+
 msgid "Preview"
 msgstr "Vista previa"
 
@@ -13088,6 +13119,9 @@ msgstr "Peso"
 
 msgid "Row limit"
 msgstr "Límite de filas"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -15588,6 +15622,9 @@ msgstr "Tablas"
 msgid "Tabs"
 msgstr "Pestañas"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "Tabular"
 
@@ -16211,6 +16248,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -17469,6 +17512,12 @@ msgstr ""
 "anotación."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"

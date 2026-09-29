@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: avsarcoteli@gmail.com\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2024-02-25 14:00+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -2567,6 +2567,9 @@ msgstr "Filtreleri uygula"
 msgid "Apply metrics on"
 msgstr "Uygulama metrikleri"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "Nisan"
 
@@ -4015,6 +4018,9 @@ msgstr "Formu temizle"
 msgid "Clear local theme"
 msgstr "tüm filtreleri temizle"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -4262,8 +4268,7 @@ msgstr "Renk şeması"
 msgid ""
 "Color used when the close value is greater than or equal to the open "
 "value."
-msgstr ""
-"Kapanış değeri açılış değerinden büyük veya ona eşitken kullanılan renk."
+msgstr "Kapanış değeri açılış değerinden büyük veya ona eşitken kullanılan renk."
 
 msgid "Color used when the close value is less than the open value."
 msgstr "Kapanış değeri açılış değerinden küçükken kullanılan renk."
@@ -4329,6 +4334,9 @@ msgstr "Köşe adı"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "Köşe adı [  %s ] tekrarlanır"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5283,6 +5291,9 @@ msgstr "Pano geri yüklenemedi."
 msgid "Dashboard could not be updated."
 msgstr "Gösterim Paneli güncellenemedi."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Gösterim Paneli bulunmuyor"
 
@@ -5293,6 +5304,9 @@ msgstr "Gösterim Paneli başarıyla kaydedildi."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "Gösterim Paneli başarıyla kaydedildi."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Gösterim Paneli aktarıldı"
@@ -7372,9 +7386,6 @@ msgstr "Dışa aktar"
 msgid "Excel XML Export"
 msgstr "Excel XML Export"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Excel dosyası belirlenemez"
 
@@ -7554,6 +7565,11 @@ msgstr "Orijinal .CSV'ye ihracat"
 
 msgid "Export to pivoted .CSV"
 msgstr ".CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9968,6 +9984,9 @@ msgstr "Margin"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Mark a column as time in \"Edit datasource\" modal"
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Marker"
 
@@ -10945,6 +10964,11 @@ msgstr "Yok Ok"
 
 msgid "None -> None"
 msgstr "Yok Hiçbir şey yok"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "Normal"
@@ -12118,6 +12142,12 @@ msgstr "Ek veya ek"
 msgid "Preparing %(count)s charts for export. This may take a moment."
 msgstr ""
 
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
+msgstr ""
+
 msgid "Preview"
 msgstr "Öpün"
 
@@ -13073,6 +13103,9 @@ msgstr "Grafik yüksekliği"
 
 msgid "Row limit"
 msgstr "Row limit"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -15603,6 +15636,9 @@ msgstr "Masalar"
 msgid "Tabs"
 msgstr "Sekmeler"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "Tabular"
 
@@ -16214,6 +16250,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -17420,6 +17462,12 @@ msgstr ""
 "Görme, annotasyon verileri içeren grafiklere geçilmelidir."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"

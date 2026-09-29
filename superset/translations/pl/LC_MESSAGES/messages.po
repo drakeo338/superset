@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2021-11-16 17:33+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -1079,9 +1079,9 @@ msgid ""
 " period. It is commonly used for financial and other time-series range "
 "analysis."
 msgstr ""
-"Wykres świecowy pokazuje wartości otwarcia, zamknięcia, maksimum i minimum "
-"dla każdego okresu. Jest powszechnie używany do analiz finansowych i "
-"zakresów szeregów czasowych."
+"Wykres świecowy pokazuje wartości otwarcia, zamknięcia, maksimum i "
+"minimum dla każdego okresu. Jest powszechnie używany do analiz "
+"finansowych i zakresów szeregów czasowych."
 
 #, fuzzy
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -2659,6 +2659,9 @@ msgstr "Zastosuj filtry"
 msgid "Apply metrics on"
 msgstr "Zastosuj metryki na"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "Kwiecień"
 
@@ -3462,8 +3465,8 @@ msgid ""
 "Candlestick draws a filled body between open and close. OHLC draws ticks "
 "for open and close on a high-low stem."
 msgstr ""
-"Świece rysują wypełnione ciało między otwarciem a zamknięciem. OHLC rysuje "
-"znaczniki otwarcia i zamknięcia na trzonie maksimum–minimum."
+"Świece rysują wypełnione ciało między otwarciem a zamknięciem. OHLC "
+"rysuje znaczniki otwarcia i zamknięcia na trzonie maksimum–minimum."
 
 msgid "Cannot access the query"
 msgstr "Nie można uzyskać dostępu do zapytania"
@@ -4179,6 +4182,9 @@ msgstr "Wyczyść formularz"
 msgid "Clear local theme"
 msgstr "Liniowy schemat kolorów"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -4441,8 +4447,7 @@ msgstr "Schemat kolorów"
 msgid ""
 "Color used when the close value is greater than or equal to the open "
 "value."
-msgstr ""
-"Kolor, gdy wartość zamknięcia jest większa lub równa wartości otwarcia."
+msgstr "Kolor, gdy wartość zamknięcia jest większa lub równa wartości otwarcia."
 
 msgid "Color used when the close value is less than the open value."
 msgstr "Kolor, gdy wartość zamknięcia jest mniejsza niż wartość otwarcia."
@@ -4513,6 +4518,9 @@ msgstr "Nazwa kolumny"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "Nazwa kolumny [%s] jest zduplikowana"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5544,6 +5552,9 @@ msgstr "Nie udało się przywrócić dashboardu."
 msgid "Dashboard could not be updated."
 msgstr "Nie można zaktualizować pulpitu nawigacyjnego."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Pulpit nawigacyjny nie istnieje"
 
@@ -5554,6 +5565,9 @@ msgstr "Ten pulpit został pomyślnie zapisany."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "Ten pulpit został pomyślnie zapisany."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 #, fuzzy
 msgid "Dashboard imported"
@@ -7768,9 +7782,6 @@ msgstr "Raport tygodniowy"
 msgid "Excel XML Export"
 msgstr "Raport tygodniowy"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Nie można określić formatu pliku Excel"
 
@@ -7957,6 +7968,11 @@ msgstr "Eksportuj do oryginalnego .CSV"
 
 msgid "Export to pivoted .CSV"
 msgstr "Eksportuj do .CSV z pivotem"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -10511,6 +10527,9 @@ msgstr "Margines"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Oznacz kolumnę jako czasową w oknie \"Edytuj źródło danych\""
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Znacznik"
 
@@ -11176,8 +11195,8 @@ msgid ""
 "Name used for the candlestick series in the legend and tooltip when no "
 "series dimension is set."
 msgstr ""
-"Nazwa serii świecowej w legendzie i podpowiedzi, gdy nie ustawiono wymiaru "
-"serii."
+"Nazwa serii świecowej w legendzie i podpowiedzi, gdy nie ustawiono "
+"wymiaru serii."
 
 msgid "Name your database"
 msgstr "Nazwij swoją bazę danych"
@@ -11535,6 +11554,11 @@ msgstr "Brak -> Strzałka"
 
 msgid "None -> None"
 msgstr "Brak -> Brak"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "Normalny"
@@ -12775,6 +12799,12 @@ msgstr "Prefiks lub sufiks"
 msgid "Preparing %(count)s charts for export. This may take a moment."
 msgstr ""
 
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
+msgstr ""
+
 msgid "Preview"
 msgstr "Podgląd"
 
@@ -13811,6 +13841,9 @@ msgstr "Waga"
 
 msgid "Row limit"
 msgstr "Limit wierszy"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -16507,6 +16540,9 @@ msgstr "Tabele"
 msgid "Tabs"
 msgstr "Zakładki"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "Tabelaryczny"
 
@@ -17155,6 +17191,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -18421,6 +18463,12 @@ msgstr ""
 "powinno zostać przekazane do wykresu zawierającego dane adnotacji."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"

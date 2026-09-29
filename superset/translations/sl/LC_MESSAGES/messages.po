@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Superset\n"
 "Report-Msgid-Bugs-To: dkrat7 @github.com\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2026-07-29 16:16+0200\n"
 "Last-Translator: lapor-kris <lapor-kris@github.com>\n"
 "Language: sl_SI\n"
@@ -2529,6 +2529,9 @@ msgstr "Uporabi filtre"
 msgid "Apply metrics on"
 msgstr "Uporabi mero za"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "April"
 
@@ -3951,6 +3954,9 @@ msgstr "Počisti polja"
 msgid "Clear local theme"
 msgstr "Počisti lokalno temo"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr "Počisti iskanje"
 
@@ -4247,6 +4253,9 @@ msgstr "Ime stolpca"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "Ime stolpca [%s] je podvojeno"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5160,6 +5169,9 @@ msgstr "Nadzorne plošče ni bilo mogoče obnoviti."
 msgid "Dashboard could not be updated."
 msgstr "Nadzorne plošče ni mogoče posodobiti."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "Nadzorna plošča ne obstaja"
 
@@ -5168,6 +5180,9 @@ msgstr "Nadzorna plošča je uspešno izvožena kot primer"
 
 msgid "Dashboard exported successfully"
 msgstr "Nadzorna plošča je bila uspešno izvožena"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Nadzorna plošča uvožena"
@@ -7176,9 +7191,6 @@ msgstr "Izvoz v Excel"
 msgid "Excel XML Export"
 msgstr "Izvoz v Excel XML"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Ni mogoče določiti formata Excel-ove datoteke"
 
@@ -7344,6 +7356,11 @@ msgstr "Izvozi v izvorni .CSV"
 
 msgid "Export to pivoted .CSV"
 msgstr "Izvozi v vrtilni .CSV"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9661,6 +9678,9 @@ msgstr "Rob"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Označite stolpec kot časoven preko okna \"Uredi podatkovni vir\""
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Marker"
 
@@ -10607,6 +10627,11 @@ msgstr "Brez -> Puščica"
 msgid "None -> None"
 msgstr "Brez -> Brez"
 
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
+
 msgid "Normal"
 msgstr "Normalno"
 
@@ -11153,8 +11178,8 @@ msgid ""
 "Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
 " Type a custom period to add it."
 msgstr ""
-"Prekrijte preprosta drsna povprečja zaključne cene (MA5, MA10, MA15, ...). "
-"Vnesite obdobje po meri, da ga dodate."
+"Prekrijte preprosta drsna povprečja zaključne cene (MA5, MA10, MA15, "
+"...). Vnesite obdobje po meri, da ga dodate."
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -11746,6 +11771,12 @@ msgstr "Predpona ali pripona"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -12688,6 +12719,9 @@ msgstr "Višina vrstice"
 
 msgid "Row limit"
 msgstr "Omejitev števila vrstic"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -15065,6 +15099,9 @@ msgstr "Tabele"
 msgid "Tabs"
 msgstr "Zavihki"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "Tabelarično"
 
@@ -15659,6 +15696,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -16818,6 +16861,12 @@ msgstr ""
 
 msgid "This dashboard does not exist"
 msgstr "Ta nadzorna plošča ne obstaja"
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
+msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
 msgstr ""
@@ -18828,9 +18877,9 @@ msgid ""
 "candles use the decrease color. Turn off to use one series color, with a "
 "filled body for increases and a hollow body for decreases."
 msgstr ""
-"Če je vklopljeno, naraščajoči svečniki uporabijo barvo rasti, padajoči pa "
-"barvo padca. Izklopite za eno barvo serije: zapolnjeno telo pri rasti in "
-"votlo pri padcu."
+"Če je vklopljeno, naraščajoči svečniki uporabijo barvo rasti, padajoči pa"
+" barvo padca. Izklopite za eno barvo serije: zapolnjeno telo pri rasti in"
+" votlo pri padcu."
 
 msgid ""
 "When enabled, the axis will display labels for the minimum and maximum "

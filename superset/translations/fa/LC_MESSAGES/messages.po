@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2024-10-20 00:07+0330\n"
 "Last-Translator: Emad Rad <codewithemad@gmail.com>\n"
 "Language: fa\n"
@@ -2558,6 +2558,9 @@ msgstr "فیلترها را اعمال کنید"
 msgid "Apply metrics on"
 msgstr "اعمال متریک‌ها بر روی"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "آپریل"
 
@@ -4055,6 +4058,9 @@ msgstr "فرم را پاک کن"
 msgid "Clear local theme"
 msgstr "طرح رنگ خطی"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -4371,6 +4377,9 @@ msgstr "نام ستون"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "نام ستون [%s] تکراری است"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5343,6 +5352,9 @@ msgstr "داشبورد قابل بازیابی نبود."
 msgid "Dashboard could not be updated."
 msgstr "داشبورد قابل به‌روزرسانی نیست."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "داشبورد وجود ندارد"
 
@@ -5353,6 +5365,9 @@ msgstr "این داشبورد با موفقیت ذخیره شد."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "این داشبورد با موفقیت ذخیره شد."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "داشبورد وارد شد"
@@ -7468,9 +7483,6 @@ msgstr "گزارش هفتگی"
 msgid "Excel XML Export"
 msgstr "گزارش هفتگی"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "فرمت فایل اکسل قابل شناسایی نیست"
 
@@ -7651,6 +7663,11 @@ msgstr "صادر کردن به .CSV اصلی"
 
 msgid "Export to pivoted .CSV"
 msgstr "صادرات به فایل .CSV محور شده"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -10130,6 +10147,9 @@ msgstr "حاشیه"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "یک ستون را به عنوان زمانی در \"ویرایش منبع داده\" مدال علامت‌گذاری کنید."
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "نشانگر"
 
@@ -11116,6 +11136,11 @@ msgstr "هیچ -> پیکان"
 
 msgid "None -> None"
 msgstr "هیچ -> هیچ"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "عادی"
@@ -12313,6 +12338,12 @@ msgstr "پیشوند یا پسوند"
 msgid "Preparing %(count)s charts for export. This may take a moment."
 msgstr ""
 
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
+msgstr ""
+
 msgid "Preview"
 msgstr "پیش‌نمایش"
 
@@ -13285,6 +13316,9 @@ msgstr "وزن"
 
 msgid "Row limit"
 msgstr "محدودیت ردیف"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -15832,6 +15866,9 @@ msgstr "جدول‌ها"
 msgid "Tabs"
 msgstr "برگه‌ها"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "جدولی"
 
@@ -16449,6 +16486,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -17665,6 +17708,12 @@ msgstr ""
 "داده‌های توضیحات منتقل شود یا خیر."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
@@ -19769,8 +19818,8 @@ msgid ""
 "filled body for increases and a hollow body for decreases."
 msgstr ""
 "در صورت فعال بودن، شمع‌های صعودی رنگ افزایش و شمع‌های نزولی رنگ کاهش را "
-"دارند. خاموش کنید تا یک رنگ سری استفاده شود: بدنه پر برای افزایش و توخالی "
-"برای کاهش."
+"دارند. خاموش کنید تا یک رنگ سری استفاده شود: بدنه پر برای افزایش و توخالی"
+" برای کاهش."
 
 #, fuzzy
 msgid ""

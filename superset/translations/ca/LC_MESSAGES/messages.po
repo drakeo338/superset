@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2025-06-27 12:56+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ca\n"
@@ -1036,9 +1036,9 @@ msgid ""
 " period. It is commonly used for financial and other time-series range "
 "analysis."
 msgstr ""
-"Un gràfic de candlestick mostra els valors d'obertura, tancament, màxim i "
-"mínim de cada període. S'utilitza habitualment per a anàlisi financera i "
-"d'intervals de sèries temporals."
+"Un gràfic de candlestick mostra els valors d'obertura, tancament, màxim i"
+" mínim de cada període. S'utilitza habitualment per a anàlisi financera i"
+" d'intervals de sèries temporals."
 
 #, fuzzy
 msgid "A comma separated list of columns that should be parsed as dates"
@@ -2572,6 +2572,9 @@ msgstr "Aplicar filtres"
 msgid "Apply metrics on"
 msgstr "Aplicar mètriques a"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "Abril"
 
@@ -4064,6 +4067,9 @@ msgstr "Netejar formulari"
 msgid "Clear local theme"
 msgstr "Esquema de colors lineal"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -4316,8 +4322,7 @@ msgstr "Esquema de colors"
 msgid ""
 "Color used when the close value is greater than or equal to the open "
 "value."
-msgstr ""
-"Color quan el valor de tancament és més gran o igual que el d'obertura."
+msgstr "Color quan el valor de tancament és més gran o igual que el d'obertura."
 
 msgid "Color used when the close value is less than the open value."
 msgstr "Color quan el valor de tancament és més petit que el d'obertura."
@@ -4383,6 +4388,9 @@ msgstr "Nom de columna"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "El nom de columna [%s] està duplicat"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -5330,6 +5338,9 @@ msgstr "No s'ha pogut restaurar el tauler."
 msgid "Dashboard could not be updated."
 msgstr "El dashboard no s'ha pogut actualitzar."
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "El dashboard no existeix"
 
@@ -5340,6 +5351,9 @@ msgstr "Aquest dashboard s'ha desat amb èxit."
 #, fuzzy
 msgid "Dashboard exported successfully"
 msgstr "Aquest dashboard s'ha desat amb èxit."
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "Dashboard importat"
@@ -7446,9 +7460,6 @@ msgstr "Informe Setmanal"
 msgid "Excel XML Export"
 msgstr "Informe Setmanal"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "El format del fitxer Excel no es pot determinar"
 
@@ -7627,6 +7638,11 @@ msgstr "Exportar a .CSV original"
 
 msgid "Export to pivoted .CSV"
 msgstr "Exportar a .CSV pivotat"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -10074,6 +10090,9 @@ msgstr "Marge"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "Marcar una columna com a temporal al modal \"Editar font de dades\""
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "Marcador"
 
@@ -10700,8 +10719,8 @@ msgid ""
 "Name used for the candlestick series in the legend and tooltip when no "
 "series dimension is set."
 msgstr ""
-"Nom de la sèrie de candlestick a la llegenda i al tooltip quan no "
-"s'ha definit cap dimensió de sèrie."
+"Nom de la sèrie de candlestick a la llegenda i al tooltip quan no s'ha "
+"definit cap dimensió de sèrie."
 
 msgid "Name your database"
 msgstr "Dona nom a la teva base de dades"
@@ -11043,6 +11062,11 @@ msgstr "Cap -> Fletxa"
 
 msgid "None -> None"
 msgstr "Cap -> Cap"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "Normal"
@@ -11489,8 +11513,7 @@ msgstr "Cadena de format de número d3 opcional"
 msgid ""
 "Optional dimension used to split the chart into multiple candlestick "
 "series."
-msgstr ""
-"Dimensió opcional per dividir el gràfic en diverses sèries de candlestick."
+msgstr "Dimensió opcional per dividir el gràfic en diverses sèries de candlestick."
 
 msgid ""
 "Optional metric used to scale the size of each dot. Dot areas are scaled "
@@ -11621,8 +11644,8 @@ msgid ""
 "Overlay simple moving averages of the close price (MA5, MA10, MA15, ...)."
 " Type a custom period to add it."
 msgstr ""
-"Superposa mitjanes mòbils simples del preu de tancament (MA5, MA10, MA15, "
-"...). Escriu un període personalitzat per afegir-lo."
+"Superposa mitjanes mòbils simples del preu de tancament (MA5, MA10, MA15,"
+" ...). Escriu un període personalitzat per afegir-lo."
 
 msgid ""
 "Overlays a hexagonal grid on a map, and aggregates data within the "
@@ -12230,6 +12253,12 @@ msgstr "Prefix o sufix"
 
 #, python-format
 msgid "Preparing %(count)s charts for export. This may take a moment."
+msgstr ""
+
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
 msgstr ""
 
 msgid "Preview"
@@ -13192,6 +13221,9 @@ msgstr "Pes"
 
 msgid "Row limit"
 msgstr "Límit de files"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -15729,6 +15761,9 @@ msgstr "Taules"
 msgid "Tabs"
 msgstr "Pestanyes"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "Tabular"
 
@@ -16350,6 +16385,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -17572,6 +17613,12 @@ msgstr ""
 "d'anotació."
 
 msgid "This dashboard does not exist"
+msgstr ""
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
 msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
@@ -19683,8 +19730,8 @@ msgid ""
 "filled body for increases and a hollow body for decreases."
 msgstr ""
 "Si està activat, les veles alcistes usen el color d'augment i les "
-"baixistes el de disminució. Desactiva-ho per usar un sol color de sèrie, amb "
-"cos ple a les pujades i buit a les baixades."
+"baixistes el de disminució. Desactiva-ho per usar un sol color de sèrie, "
+"amb cos ple a les pujades i buit a les baixades."
 
 #, fuzzy
 msgid ""

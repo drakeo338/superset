@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-24 10:35+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: 2024-05-14 13:30+0900\n"
 "Last-Translator: Yuri Umezaki <bungoume@gmail.com>\n"
 "Language: ja\n"
@@ -2277,6 +2277,9 @@ msgstr "フィルターを適用"
 msgid "Apply metrics on"
 msgstr "メトリックの適用対象"
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr "4月"
 
@@ -3564,6 +3567,9 @@ msgstr "フォームをクリア"
 msgid "Clear local theme"
 msgstr "ローカルテーマをクリア"
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr "検索をクリア"
 
@@ -3838,6 +3844,9 @@ msgstr "列名"
 #, python-format
 msgid "Column name [%s] is duplicated"
 msgstr "列名 [%s] が重複しています"
+
+msgid "Column options"
+msgstr ""
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
@@ -4680,6 +4689,9 @@ msgstr "ダッシュボードを復元できませんでした。"
 msgid "Dashboard could not be updated."
 msgstr "ダッシュボードを更新できませんでした。"
 
+msgid "Dashboard data exported to Excel"
+msgstr ""
+
 msgid "Dashboard does not exist"
 msgstr "ダッシュボードが存在しません"
 
@@ -4688,6 +4700,9 @@ msgstr "ダッシュボードの構成をエクスポートしました"
 
 msgid "Dashboard exported successfully"
 msgstr "ダッシュボードのエクスポートが完了しました"
+
+msgid "Dashboard has no charts to export."
+msgstr ""
 
 msgid "Dashboard imported"
 msgstr "ダッシュボードをインポートしました"
@@ -6499,9 +6514,6 @@ msgstr "Excelエクスポート"
 msgid "Excel XML Export"
 msgstr "Excel XMLエクスポート"
 
-msgid "Excel export is not configured on this server."
-msgstr ""
-
 msgid "Excel file format cannot be determined"
 msgstr "Excelファイルの形式を特定できません"
 
@@ -6663,6 +6675,11 @@ msgstr "基データCSVとしてエクスポート"
 
 msgid "Export to pivoted .CSV"
 msgstr "ピボット済みCSVとしてエクスポート"
+
+msgid ""
+"Exporting images to Excel requires background exports. Ask an "
+"administrator to enable them, or export the dashboard's data instead."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -8817,6 +8834,9 @@ msgstr "マージン"
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr "「データソースの編集」モーダルで列を時間列として設定"
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr "マーカー"
 
@@ -9688,6 +9708,11 @@ msgstr "なし -> 矢印"
 
 msgid "None -> None"
 msgstr "なし -> なし"
+
+msgid ""
+"None of this dashboard's charts can be downloaded directly. Ask an "
+"administrator to enable background exports."
+msgstr ""
 
 msgid "Normal"
 msgstr "標準"
@@ -10742,6 +10767,12 @@ msgstr "接頭辞または接尾辞"
 msgid "Preparing %(count)s charts for export. This may take a moment."
 msgstr ""
 
+msgid "Preparing dashboard Excel export…"
+msgstr ""
+
+msgid "Preparing export…"
+msgstr ""
+
 msgid "Preview"
 msgstr "プレビュー"
 
@@ -11629,6 +11660,9 @@ msgstr "行の高さ"
 
 msgid "Row limit"
 msgstr "行数制限"
+
+msgid "Row options"
+msgstr ""
 
 msgid "Row settings"
 msgstr ""
@@ -13803,6 +13837,9 @@ msgstr "テーブル"
 msgid "Tabs"
 msgstr "タブ"
 
+msgid "Tabs options"
+msgstr ""
+
 msgid "Tabular"
 msgstr "表形式"
 
@@ -14321,6 +14358,12 @@ msgstr ""
 msgid ""
 "The following charts were omitted because an error occurred while "
 "exporting them:"
+msgstr ""
+
+msgid ""
+"The following charts were omitted because their size cannot be determined"
+" before they run. Ask an administrator to enable background exports to "
+"include them."
 msgstr ""
 
 msgid ""
@@ -15332,6 +15375,12 @@ msgstr ""
 
 msgid "This dashboard does not exist"
 msgstr "このダッシュボードは存在しません"
+
+msgid ""
+"This dashboard has too much data to download directly. Ask an "
+"administrator to enable background exports, or lower the row limits of "
+"its charts."
+msgstr ""
 
 msgid "This dashboard is managed externally, and can't be edited in Superset"
 msgstr "このダッシュボードは外部で管理されているため、Superset では編集できません"

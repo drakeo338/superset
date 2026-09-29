@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-28 13:48+0300\n"
+"POT-Creation-Date: 2026-09-28 23:27-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2257,6 +2257,9 @@ msgstr ""
 msgid "Apply metrics on"
 msgstr ""
 
+msgid "Apply theme"
+msgstr ""
+
 msgid "April"
 msgstr ""
 
@@ -3540,6 +3543,9 @@ msgstr ""
 msgid "Clear local theme"
 msgstr ""
 
+msgid "Clear override (inherit)"
+msgstr ""
+
 msgid "Clear search"
 msgstr ""
 
@@ -3813,6 +3819,9 @@ msgstr ""
 
 #, python-format
 msgid "Column name [%s] is duplicated"
+msgstr ""
+
+msgid "Column options"
 msgstr ""
 
 #, python-format
@@ -8802,6 +8811,9 @@ msgstr ""
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
 msgstr ""
 
+msgid "Markdown options"
+msgstr ""
+
 msgid "Marker"
 msgstr ""
 
@@ -11631,6 +11643,9 @@ msgstr ""
 msgid "Row limit"
 msgstr ""
 
+msgid "Row options"
+msgstr ""
+
 msgid "Row settings"
 msgstr ""
 
@@ -13790,6 +13805,9 @@ msgid "Tables"
 msgstr ""
 
 msgid "Tabs"
+msgstr ""
+
+msgid "Tabs options"
 msgstr ""
 
 msgid "Tabular"
