@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Superset\n"
 "Report-Msgid-Bugs-To: dkrat7 @github.com\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 00:34-0700\n"
 "PO-Revision-Date: 2026-07-29 16:16+0200\n"
 "Last-Translator: lapor-kris <lapor-kris@github.com>\n"
 "Language: sl_SI\n"
@@ -1297,6 +1297,9 @@ msgstr "Prekinitev"
 msgid "About"
 msgstr "O programu"
 
+msgid "Accept"
+msgstr ""
+
 msgid "Access"
 msgstr "Dostop"
 
@@ -1725,6 +1728,9 @@ msgstr "Agregacija"
 msgid "Aggregation Method"
 msgstr "Metoda združevanja"
 
+msgid "Aggregation function"
+msgstr ""
+
 msgid ""
 "Aggregation used for the summary row. By default each metric keeps its "
 "own aggregation; Sum and Average override it for the summary row only. "
@@ -1774,6 +1780,10 @@ msgid "Alert query must be a single statement"
 msgstr ""
 
 msgid "Alert query must be read-only"
+msgstr ""
+
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
 msgstr ""
 
 msgid "Alert query returned a non-number value."
@@ -4762,6 +4772,18 @@ msgstr ""
 
 msgid "Count"
 msgstr "Število"
+
+msgid "Count Unique Values"
+msgstr ""
+
+msgid "Count as Fraction of Columns"
+msgstr ""
+
+msgid "Count as Fraction of Rows"
+msgstr ""
+
+msgid "Count as Fraction of Total"
+msgstr ""
 
 msgid "Country"
 msgstr "Država"
@@ -8863,9 +8885,6 @@ msgstr "Neveljavni ID-ji zavihkov: %(tab_ids)s"
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
 
-msgid "Invalid username or password"
-msgstr "Neveljavno uporabniško ime ali geslo"
-
 msgid "Inverse"
 msgstr ""
 
@@ -9435,6 +9454,9 @@ msgstr "Seznam skupin"
 msgid "List Roles"
 msgstr "Seznam vlog"
 
+msgid "List Unique Values"
+msgstr ""
+
 msgid "List Users"
 msgstr "Seznam uporabnikov"
 
@@ -9809,6 +9831,9 @@ msgstr "Povprečna vrednost v dani periodi"
 
 msgid "Mean values"
 msgstr "Srednje vrednosti"
+
+msgid "Median"
+msgstr ""
 
 msgid ""
 "Median edge width, the thickest edge will be 4 times thicker than the "
@@ -14159,11 +14184,11 @@ msgstr "Prikaži časovne žige poizvedbe grafikona"
 msgid "Show column headers"
 msgstr "Prikaži naslove stolpcev"
 
+msgid "Show column summaries"
+msgstr ""
+
 msgid "Show columns subtotal"
 msgstr "Prikaži delne vsote stolpcev"
-
-msgid "Show columns total"
-msgstr "Prikaži vsoto stolpcev"
 
 msgid "Show empty columns"
 msgstr "Prikaži prazne stolpce"
@@ -14243,11 +14268,11 @@ msgstr "Prikaži identifikatorje poizvedbe"
 msgid "Show row labels"
 msgstr "Pokaži oznake vrstic"
 
+msgid "Show row summaries"
+msgstr ""
+
 msgid "Show rows subtotal"
 msgstr "Prikaži delne vsote vrstic"
-
-msgid "Show rows total"
-msgstr "Prikaži vsoto vrstic"
 
 msgid "Show series values on the chart"
 msgstr "Na grafikonu prikaži vrednosti serij"
@@ -14916,6 +14941,15 @@ msgstr ""
 
 msgid "Sum"
 msgstr "Vsota"
+
+msgid "Sum as Fraction of Columns"
+msgstr ""
+
+msgid "Sum as Fraction of Rows"
+msgstr ""
+
+msgid "Sum as Fraction of Total"
+msgstr ""
 
 msgid "Sum of values over specified period"
 msgstr "Vsota vrednosti v dani periodi"
@@ -16864,6 +16898,9 @@ msgstr ""
 msgid "This chart only"
 msgstr ""
 
+msgid "This chart was updated to use the restored aggregation"
+msgstr ""
+
 msgid "This chart will be restored to the following version:"
 msgstr ""
 
@@ -17201,6 +17238,13 @@ msgstr "Ta stran naj bi bila vdelana kot iframe, vendar izgleda, da temu ni tako
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "This password is too common; please choose a less guessable one."
 msgstr "To geslo je prepogosto; izberite manj uganljivega."
+
+msgid ""
+"This pivot table used a legacy per-table aggregation setting that "
+"Superset previously ignored. It now computes correctly, so totals and "
+"subtotals may look different than before. Please validate them, then "
+"accept this notice or save the chart."
+msgstr ""
 
 msgid ""
 "This section allows you to configure how to use the slice\n"
@@ -18301,8 +18345,18 @@ msgstr "Uporabi trenutni obseg"
 msgid "Use date formatting even when metric value is not a timestamp"
 msgstr "Oblikovanje datuma uporabi tudi, ko vrednost mere ni časovna značka"
 
+msgid ""
+"Use each metric’s own definition for cells and summaries (the default "
+"since SIP-216), or aggregate a second time over the metric’s own grouped "
+"results — e.g. the median of a set of per-store averages. Query limits "
+"apply before a result aggregation runs."
+msgstr ""
+
 msgid "Use gradient"
 msgstr "Uporabi gradient"
+
+msgid "Use metric definition"
+msgstr ""
 
 msgid "Use metrics as a top level group for columns or for rows"
 msgstr "Uporabi mere kot vrhovni nivo grupiranja za stolpce ali vrstice"

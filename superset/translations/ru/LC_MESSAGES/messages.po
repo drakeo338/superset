@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 00:34-0700\n"
 "PO-Revision-Date: 2026-07-17 09:44+0100\n"
 "Last-Translator: Daniel Checheta\n"
 "Language: ru\n"
@@ -1248,6 +1248,9 @@ msgstr "Отменяется"
 msgid "About"
 msgstr "О программе"
 
+msgid "Accept"
+msgstr ""
+
 msgid "Access"
 msgstr "Доступ"
 
@@ -1666,6 +1669,9 @@ msgstr "Агрегация"
 msgid "Aggregation Method"
 msgstr "Метод агрегации"
 
+msgid "Aggregation function"
+msgstr ""
+
 msgid ""
 "Aggregation used for the summary row. By default each metric keeps its "
 "own aggregation; Sum and Average override it for the summary row only. "
@@ -1715,6 +1721,10 @@ msgid "Alert query must be a single statement"
 msgstr ""
 
 msgid "Alert query must be read-only"
+msgstr ""
+
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
 msgstr ""
 
 msgid "Alert query returned a non-number value."
@@ -4627,6 +4637,18 @@ msgstr ""
 
 msgid "Count"
 msgstr "Количество"
+
+msgid "Count Unique Values"
+msgstr ""
+
+msgid "Count as Fraction of Columns"
+msgstr ""
+
+msgid "Count as Fraction of Rows"
+msgstr ""
+
+msgid "Count as Fraction of Total"
+msgstr ""
 
 msgid "Country"
 msgstr "Страна"
@@ -8591,9 +8613,6 @@ msgstr "Некорректные ID вкладок: %(tab_ids)s"
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
 
-msgid "Invalid username or password"
-msgstr "Неверное имя пользователя или пароль"
-
 msgid "Inverse"
 msgstr ""
 
@@ -9153,6 +9172,9 @@ msgstr "Список групп"
 msgid "List Roles"
 msgstr "Список ролей"
 
+msgid "List Unique Values"
+msgstr ""
+
 msgid "List Users"
 msgstr "Список пользователей"
 
@@ -9516,6 +9538,9 @@ msgstr "Среднее значений за указанный период"
 
 msgid "Mean values"
 msgstr "Средние значения"
+
+msgid "Median"
+msgstr ""
 
 msgid ""
 "Median edge width, the thickest edge will be 4 times thicker than the "
@@ -13732,11 +13757,11 @@ msgstr "Показывать метки времени запросов диаг
 msgid "Show column headers"
 msgstr "Показывать заголовки столбцов"
 
+msgid "Show column summaries"
+msgstr ""
+
 msgid "Show columns subtotal"
 msgstr "Показать подытоги по столбцам"
-
-msgid "Show columns total"
-msgstr "Показать итог по столбцам"
 
 msgid "Show empty columns"
 msgstr "Показывать пустые столбцы"
@@ -13816,11 +13841,11 @@ msgstr "Показать идентификаторы запросов"
 msgid "Show row labels"
 msgstr "Показывать подписи строк"
 
+msgid "Show row summaries"
+msgstr ""
+
 msgid "Show rows subtotal"
 msgstr "Показать подытоги по строкам"
-
-msgid "Show rows total"
-msgstr "Показать общий итог по строкам"
 
 msgid "Show series values on the chart"
 msgstr "Показать значения категорий на диаграмме"
@@ -14481,6 +14506,15 @@ msgstr ""
 
 msgid "Sum"
 msgstr "Сумма"
+
+msgid "Sum as Fraction of Columns"
+msgstr ""
+
+msgid "Sum as Fraction of Rows"
+msgstr ""
+
+msgid "Sum as Fraction of Total"
+msgstr ""
 
 msgid "Sum of values over specified period"
 msgstr "Сумма значений за обозначенный период"
@@ -16389,6 +16423,9 @@ msgstr ""
 msgid "This chart only"
 msgstr ""
 
+msgid "This chart was updated to use the restored aggregation"
+msgstr ""
+
 msgid "This chart will be restored to the following version:"
 msgstr ""
 
@@ -16702,6 +16739,13 @@ msgid "This password is too common; please choose a less guessable one."
 msgstr ""
 "Такой пароль слишком часто встречается. Придумайте какой-нибудь другой, "
 "который было бы сложнее угадать."
+
+msgid ""
+"This pivot table used a legacy per-table aggregation setting that "
+"Superset previously ignored. It now computes correctly, so totals and "
+"subtotals may look different than before. Please validate them, then "
+"accept this notice or save the chart."
+msgstr ""
 
 msgid ""
 "This section allows you to configure how to use the slice\n"
@@ -17765,8 +17809,18 @@ msgstr "Использовать текущий масштаб"
 msgid "Use date formatting even when metric value is not a timestamp"
 msgstr "Отформатировать как дату, даже если мера представлена другим типом данных"
 
+msgid ""
+"Use each metric’s own definition for cells and summaries (the default "
+"since SIP-216), or aggregate a second time over the metric’s own grouped "
+"results — e.g. the median of a set of per-store averages. Query limits "
+"apply before a result aggregation runs."
+msgstr ""
+
 msgid "Use gradient"
 msgstr "Использовать градиент"
+
+msgid "Use metric definition"
+msgstr ""
 
 msgid "Use metrics as a top level group for columns or for rows"
 msgstr "Использовать меры как группы верхнего уровня для столбцов или строк"
