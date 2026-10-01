@@ -388,13 +388,21 @@ password change (`ENABLE_FORCE_PASSWORD_CHANGE`) now redirects to that profile
 page instead of the removed form. Deployments that link to either legacy route
 should point at `/user_info/` or the Users list instead.
 
-Reaching the profile page requires `can_read` on `user`, which the built-in
-Admin/Alpha/Gamma roles hold by default but a custom role is not guaranteed
-to. A user whose only role lacks it and who gets redirected there by a forced
-password change is now redirected to logout with an explanatory message
-instead, so they are never trapped in a redirect loop; grant that permission
-to any custom role whose members may have `ENABLE_FORCE_PASSWORD_CHANGE`
-set on their account.
+Completing a forced password change this way needs three grants: `can_read`
+on `user` to reach the profile page, plus `can_read` and `can_write` on
+`CurrentUserRestApi` for the page to load the current user and submit the new
+password. The built-in Admin/Alpha/Gamma roles hold all three by default, but
+a custom role is not guaranteed to. A user whose only role lacks `can_read` on
+`user` and who gets redirected to the profile page is now redirected to
+logout with an explanatory message instead, so they are never trapped in a
+redirect loop -- but a role missing only the `CurrentUserRestApi` grants would
+reach the page and then fail to change the password, so grant all three to
+any custom role whose members may be flagged for a forced change. That flag
+(`password_must_change`, set per-user by an administrator when provisioning
+an account) is distinct from `ENABLE_FORCE_PASSWORD_CHANGE`, the
+deployment-wide config setting that turns the enforcement mechanism on; grant
+the permissions to any custom role in a deployment that has the setting
+enabled.
 
 ### Default Docker image is now batteries-included; the minimal image moves to `-lean`
 

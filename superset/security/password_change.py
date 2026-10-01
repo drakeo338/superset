@@ -235,7 +235,6 @@ def register_password_change_enforcement(app: Any) -> None:
         if not password_change_required(user):
             return None
 
-        flash(__("You must change your password before continuing."), "warning")
         # Resolve the SPA profile page, if the user can actually reach it, with
         # logout as the fallback -- which is always exempt from this
         # enforcement. We must NOT fall back to "/" or any other non-exempt
@@ -243,9 +242,15 @@ def register_password_change_enforcement(app: Any) -> None:
         # an infinite 302 loop. If no exempt target can be resolved at all,
         # return an error response rather than redirect, so a flagged user can
         # never get stuck looping.
+        #
+        # Flash exactly one message: the generic "must change your password"
+        # notice when the profile page is reachable, or the specific
+        # "contact an administrator" notice when it isn't. Flashing both would
+        # show the user two messages that read as contradictory.
         security_manager = getattr(getattr(current_app, "appbuilder", None), "sm", None)
         candidates = []
         if _profile_page_reachable(security_manager):
+            flash(__("You must change your password before continuing."), "warning")
             candidates.append(_PROFILE_PAGE_ENDPOINT)
         else:
             flash(
