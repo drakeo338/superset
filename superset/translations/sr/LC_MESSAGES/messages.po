@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2026-06-14 13:20+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sr\n"
@@ -2056,6 +2056,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, uk, zh, zh_TW]
 msgid "Alert query returned a non-number value."
 msgstr "Упит упозорења је вратио вредност која није број."
@@ -2113,6 +2117,9 @@ msgstr "Поравнај +/-"
 
 msgid "Align +/- for all columns"
 msgstr "Поравнај +/- за све колоне"
+
+msgid "Alignment"
+msgstr ""
 
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, tr, uk, zh, zh_TW]
 msgid "All"
@@ -4038,6 +4045,9 @@ msgstr "Ограничење ћелија"
 # ru, uk]
 msgid "Cell title template"
 msgstr "Шаблон наслова ћелије"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -10054,6 +10064,9 @@ msgstr "Хоризонтално (Врх)"
 msgid "Horizontal alignment"
 msgstr "Хоризонтално поравнање"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Хост"
 
@@ -10639,10 +10652,6 @@ msgstr "Неважећи ИД-ови картица: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-# ru, uk]
-msgid "Invalid username or password"
-msgstr "Неисправно корисничко име или лозинка"
 
 msgid "Inverse"
 msgstr ""

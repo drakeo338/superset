@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2023-04-07 19:45+0200\n"
 "Last-Translator: Holger Bruch <holger.bruch@wattbewerb.de>\n"
 "Language: de\n"
@@ -1711,6 +1711,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "Die Alarm-Abfrage hat einen nicht-numerischen Wert zurückgegeben."
 
@@ -1755,6 +1759,9 @@ msgstr "+/- angleichen"
 
 msgid "Align +/- for all columns"
 msgstr "+/- für alle Spalten angleichen"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Alle"
@@ -3336,6 +3343,9 @@ msgstr "Zellgrenze"
 
 msgid "Cell title template"
 msgstr "Vorlage für die Zellenüberschrift"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8218,6 +8228,9 @@ msgstr "Horizontal (oben)"
 msgid "Horizontal alignment"
 msgstr "Horizontale Ausrichtung"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Host"
 
@@ -8691,9 +8704,6 @@ msgstr "Ungültige Tab-IDs: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-msgid "Invalid username or password"
-msgstr "Der Anmeldename oder das Kennwort ist falsch"
 
 msgid "Inverse"
 msgstr ""

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2024-05-14 13:30+0900\n"
 "Last-Translator: Yuri Umezaki <bungoume@gmail.com>\n"
 "Language: ja\n"
@@ -1594,6 +1594,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "アラートクエリが数値以外の値を返しました。"
 
@@ -1634,6 +1638,9 @@ msgstr "+/- を揃える"
 
 msgid "Align +/- for all columns"
 msgstr "すべての列で +/- を揃える"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "すべて"
@@ -3065,6 +3072,9 @@ msgstr "セルの上限数"
 
 msgid "Cell title template"
 msgstr "セルのタイトルテンプレート"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -7616,6 +7626,9 @@ msgstr "水平 (上)"
 msgid "Horizontal alignment"
 msgstr "水平方向の配置"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "ホスト"
 
@@ -8068,9 +8081,6 @@ msgstr "無効なタブID: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-msgid "Invalid username or password"
-msgstr "ユーザー名またはパスワードが正しくありません"
 
 msgid "Inverse"
 msgstr ""

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2026-01-25 16:09+1300\n"
 "Last-Translator: karo.co.nz\n"
 "Language: mi\n"
@@ -1776,6 +1776,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "I whakahoki te pātai matohi i tētahi uara ehara i te tau."
 
@@ -1821,6 +1825,9 @@ msgstr "Whakarite +/-"
 #, fuzzy
 msgid "Align +/- for all columns"
 msgstr "Whakaatu tīwae katoa"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Katoa"
@@ -3471,6 +3478,9 @@ msgstr "Tepe pūtau"
 #, fuzzy
 msgid "Cell title template"
 msgstr "Muku tauira"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8654,6 +8664,9 @@ msgstr "Whakapae (Runga)"
 msgid "Horizontal alignment"
 msgstr "Whakarite whakapae"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Tūmau"
 
@@ -9163,10 +9176,6 @@ msgstr ""
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-#, fuzzy
-msgid "Invalid username or password"
-msgstr "Kua hē te ingoa kaiwhakamahi, te kupuhipa rānei."
 
 msgid "Inverse"
 msgstr ""

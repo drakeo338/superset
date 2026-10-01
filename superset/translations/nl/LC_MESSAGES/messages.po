@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  superset-ds\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2024-05-08 14:41+0000\n"
 "Last-Translator: \n"
 "Language: nl\n"
@@ -1807,6 +1807,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "Alert query heeft een waarde geretourneerd die geen getal is."
 
@@ -1852,6 +1856,9 @@ msgstr "Uitlijnen +/-"
 #, fuzzy
 msgid "Align +/- for all columns"
 msgstr "Toon alle kolommen"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Alle"
@@ -3581,6 +3588,9 @@ msgstr "Cel limiet"
 #, fuzzy
 msgid "Cell title template"
 msgstr "Verwijder template"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8957,6 +8967,9 @@ msgstr "Horizontaal (Boven)"
 msgid "Horizontal alignment"
 msgstr "Horizontale uitlijning"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Host"
 
@@ -9486,10 +9499,6 @@ msgstr ""
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-#, fuzzy
-msgid "Invalid username or password"
-msgstr "Ofwel is de gebruikersnaam ofwel het wachtwoord verkeerd."
 
 msgid "Inverse"
 msgstr ""

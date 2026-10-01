@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2024-07-14 15:10+0300\n"
 "Last-Translator: Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>\n"
 "Language: ar\n"
@@ -1935,6 +1935,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "أرجع استعلام التنبيه قيمة غير رقمية."
 
@@ -1978,6 +1982,9 @@ msgstr "محاذاة +/-"
 #, fuzzy
 msgid "Align +/- for all columns"
 msgstr "عرض جميع الأعمدة"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "كل"
@@ -3655,6 +3662,9 @@ msgstr "حد الخلية"
 #, fuzzy
 msgid "Cell title template"
 msgstr "حذف القالب"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -9072,6 +9082,9 @@ msgstr "أفقي (أعلى)"
 msgid "Horizontal alignment"
 msgstr "محاذاة أفقية"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "المضيف"
 
@@ -9593,10 +9606,6 @@ msgstr ""
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-#, fuzzy
-msgid "Invalid username or password"
-msgstr "إما أن اسم المستخدم أو كلمة المرور خاطئين."
 
 msgid "Inverse"
 msgstr ""

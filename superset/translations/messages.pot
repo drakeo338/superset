@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1528,6 +1528,9 @@ msgstr ""
 msgid "Align +/- for all columns"
 msgstr ""
 
+msgid "Alignment"
+msgstr ""
+
 msgid "All"
 msgstr ""
 
@@ -2850,6 +2853,9 @@ msgid "Cell limit"
 msgstr ""
 
 msgid "Cell title template"
+msgstr ""
+
+msgid "Center"
 msgstr ""
 
 msgid "Center value"
@@ -7156,6 +7162,9 @@ msgid "Horizontal (Top)"
 msgstr ""
 
 msgid "Horizontal alignment"
+msgstr ""
+
+msgid "Horizontal alignment of the metric value and supporting text"
 msgstr ""
 
 msgid "Host"

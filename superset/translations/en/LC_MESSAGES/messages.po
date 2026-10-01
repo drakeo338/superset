@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2016-05-02 08:49-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1573,6 +1573,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr ""
 
@@ -1612,6 +1616,9 @@ msgid "Align +/-"
 msgstr ""
 
 msgid "Align +/- for all columns"
+msgstr ""
+
+msgid "Alignment"
 msgstr ""
 
 msgid "All"
@@ -3035,6 +3042,9 @@ msgid "Cell limit"
 msgstr ""
 
 msgid "Cell title template"
+msgstr ""
+
+msgid "Center"
 msgstr ""
 
 msgid "Center value"
@@ -7597,6 +7607,9 @@ msgstr ""
 msgid "Horizontal alignment"
 msgstr ""
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr ""
 
@@ -8044,9 +8057,6 @@ msgstr ""
 
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
-msgstr ""
-
-msgid "Invalid username or password"
 msgstr ""
 
 msgid "Inverse"

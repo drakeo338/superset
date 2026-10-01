@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: avsarcoteli@gmail.com\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2024-02-25 14:00+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -1760,6 +1760,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "Uyarı sorguları numara olmayan bir değer geri döndü."
 
@@ -1805,6 +1809,9 @@ msgstr "Align + /-"
 #, fuzzy
 msgid "Align +/- for all columns"
 msgstr "Tüm sütunlar için +/- hizala"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Tümü"
@@ -3461,6 +3468,9 @@ msgstr "Hücre limiti"
 #, fuzzy
 msgid "Cell title template"
 msgstr "Şablonu sil"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8622,6 +8632,9 @@ msgstr "yatay (Top)"
 msgid "Horizontal alignment"
 msgstr "yatay hizalama"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Host"
 
@@ -9112,9 +9125,6 @@ msgstr "Geçersiz sekme kimlikleri: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-msgid "Invalid username or password"
-msgstr "Invalid kullanıcı veya şifre"
 
 msgid "Inverse"
 msgstr ""

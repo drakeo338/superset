@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2026-07-17 09:44+0100\n"
 "Last-Translator: Daniel Checheta\n"
 "Language: ru\n"
@@ -1717,6 +1717,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "Запрос для отправки оповещения вернул нечисловое значение"
 
@@ -1761,6 +1765,9 @@ msgstr "Выровнять +/-"
 
 msgid "Align +/- for all columns"
 msgstr "Выровнять +/- во всех столбцах"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Все"
@@ -3309,6 +3316,9 @@ msgstr "Лимит ячеек"
 
 msgid "Cell title template"
 msgstr "Шаблон заголовка ячейки"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8123,6 +8133,9 @@ msgstr "Горизонтально (сверху)"
 msgid "Horizontal alignment"
 msgstr "Выравнивание по горизонтали"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Хост"
 
@@ -8590,9 +8603,6 @@ msgstr "Некорректные ID вкладок: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-msgid "Invalid username or password"
-msgstr "Неверное имя пользователя или пароль"
 
 msgid "Inverse"
 msgstr ""

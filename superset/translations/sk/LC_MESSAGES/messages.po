@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: 2026-05-18 15:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1759,6 +1759,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "Dotaz upozornenie vrátil nečíselnou hodnotu."
 
@@ -1804,6 +1808,9 @@ msgstr "Zarovnat +/-"
 #, fuzzy
 msgid "Align +/- for all columns"
 msgstr "Zobraziť všetky stĺpce"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Vše"
@@ -3390,6 +3397,9 @@ msgstr "Limit bunek"
 #, fuzzy
 msgid "Cell title template"
 msgstr "Šablona názvu bunky"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8409,6 +8419,9 @@ msgstr "Vodorovný (nahoře)"
 msgid "Horizontal alignment"
 msgstr "Vodorovné zarovnanie"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Hostitel"
 
@@ -8899,10 +8912,6 @@ msgstr "Neplatná ID karet: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-#, fuzzy
-msgid "Invalid username or password"
-msgstr "Neplatné používateľské meno alebo heslo"
 
 msgid "Inverse"
 msgstr ""

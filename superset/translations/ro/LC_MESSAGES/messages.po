@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-30 19:36-0700\n"
+"POT-Creation-Date: 2026-10-01 04:18-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ro\n"
@@ -1860,6 +1860,10 @@ msgstr ""
 msgid "Alert query must be read-only"
 msgstr ""
 
+#, python-format
+msgid "Alert query must not contain the file-transfer command(s): %(commands)s"
+msgstr ""
+
 msgid "Alert query returned a non-number value."
 msgstr "Interogarea alertei a returnat o valoare non-numerică."
 
@@ -1907,6 +1911,9 @@ msgstr "Aliniază +/-"
 #, fuzzy
 msgid "Align +/- for all columns"
 msgstr "Aliniază +/- pentru toate coloanele"
+
+msgid "Alignment"
+msgstr ""
 
 msgid "All"
 msgstr "Toate"
@@ -3560,6 +3567,9 @@ msgstr "Limită celulă"
 
 msgid "Cell title template"
 msgstr "Șablon titlu celulă"
+
+msgid "Center"
+msgstr ""
 
 msgid "Center value"
 msgstr ""
@@ -8825,6 +8835,9 @@ msgstr "Orizontal (Sus)"
 msgid "Horizontal alignment"
 msgstr "Aliniere orizontală"
 
+msgid "Horizontal alignment of the metric value and supporting text"
+msgstr ""
+
 msgid "Host"
 msgstr "Gazdă"
 
@@ -9350,9 +9363,6 @@ msgstr "ID-uri de file nevalide: %(tab_ids)s"
 #, python-format
 msgid "Invalid time range boundary for resample: %(value)s"
 msgstr ""
-
-msgid "Invalid username or password"
-msgstr "Nume de utilizator sau parolă invalidă"
 
 msgid "Inverse"
 msgstr ""
